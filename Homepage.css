@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+*{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.headimg{
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headim{
+  height: 40%;
+  width: 40%;
+}
+
+.fixed{
+  position: fixed;
+  top: 60px;
+  left: 12px;
+  width: 100%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 130px;/* Make sure it's on top of other content */
+  transition: top 0.1s ease;
+  z-index: 1;
+}
+
+.stick-to-top {
+  top: 0; /* Stick to the top */
+}
+
+body{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: transparent !important;
+  padding: 0;
+}
+
+.bg-body-tertiary{
+  background-color: transparent !important;;
+}
+
+.material-symbols-outlined{
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.left a {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.me-2{
+  background-color: rgba(255, 115, 0, 0.1);
+  margin-top: 10px;
+  margin-left: 5px;
+  height: 50px;
+  width: 398px;
+  border-radius: 10px;
+  border: 5px solid rgb(255, 115, 0);  
+}
+
+.me-2::placeholder{
+  color: rgb(255, 115, 0);
+  font-weight: 700;
+}
+
+.firsttxt {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 900;
+  width: 100%;
+  margin-top: 140px;
+}
+
+.rov{
+  width: 100%;
+}
+.mainimg{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border: 5px solid rgb(255, 115, 0);
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(255,115,0, 0.5);
+}
+
+.foryou {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.cc{
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cc img{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 1px solid rgb(255, 115, 0);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+  transition: height 0.3s, width 0.3s;
+}
+
+.cc img:hover{
+  height: 90px;
+  width: 90px;
+}
+
+.card {
+  background-color: transparent !important;
+  box-shadow: 0 0 0.937rem rgba(0, 0, 0, 0.219);
+  width: 100%;
+  border-radius: 15px;
+  display: flex;
+  margin-top: 40px;
+  z-index: 2;
+}
+
+.card__hero{
+  display: flex;
+  border: 2px solid rgb(255, 115, 0);
+  position: relative;
+  height: 150px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 5px 10px rgba(255, 115, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.card__hero:hover{
+  background-color: rgba(255, 115, 0, 0.1);
+  box-shadow: 20px rgba(255, 115, 0, 0.5);
+
+}
+
+.card__img{
+  display: block;
+  width: 129px;
+  height: 129px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.p1 {
+  width: 100%;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+.para img{
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  height: 20px;
+  width: auto;
+}
+
+.p2 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+#asd{
+  background-color: rgba(142, 137, 133, 0.3);
+  border: 2px solid #494949;
+}
+
+.cs{
+  width: 220px;
+  text-align: center;
+  transform: translate(60px, 65px);
+  font-size: 24px;
+  border: 5px solid #00000091;
+  border-radius: 10px;
+  height: 50px;
+  rotate: -20deg;
+}
